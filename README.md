@@ -27,7 +27,7 @@
   1. Show Blue Score & Epochs
   2. Show word vector projector
   
-# Deploy 
+## Deploy 
   1. View training data in output.dev
   2. Run python inference
   3. Chat with your bot
