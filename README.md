@@ -21,10 +21,18 @@
   3. Install requirements
   4. Copy database to new_data (train.from, train.to)
   5. Run prepare data
-  7. Run training - Tokenize data
+  7. Run training - Tokenize data - BNN Birdirectional Neural Network
   
 ## View Data in Tensorboard
-  1. 
+  1. Show Blue Score & Epochs
+  2. Show word vector projector
+  
+# Deploy 
+  1. View training data in output.dev
+  2. Run python inference
+  3. Chat with your bot
+  
+  
   
   
 
