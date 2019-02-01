@@ -4,8 +4,8 @@
 ## Demo of prebuilt chatbot
 
 ## Build custom chatbot
-  1. Download Dataset
-  2. Python code to build a chatbot database, tables, & columns (parent id, comments, parent data, body, subredit, created_utc, score)
+  1. Download Dataset https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment/?st=j9udbxta&sh=69e4fee7
+  2. Python code to build a chatbot database, tables, & columns (parent id, comments, parent data, body, subreddit, score)
   3. Clean data - Format/remove quotes, spaces, unessecary characters
   4. Find out if comments are acceptable (grab data with upvoted comments)
   5. Insert data - Browse/View results
