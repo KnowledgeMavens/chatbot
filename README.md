@@ -3,6 +3,7 @@
 
 ## Chatbot projects
 https://github.com/llSourcell/tensorflow_chatbot
+
 https://github.com/daniel-kukiela/nmt-chatbot
 
 ## Build custom chatbot
@@ -21,13 +22,14 @@ https://github.com/daniel-kukiela/nmt-chatbot
      - Paperspace provides provised ML-in-a-Box for $10 (Versions have been updated)
   2. Clone NMT github project
   3. Install requirements
-  4. Copy database to new_data (train.from, train.to)
-  5. Run prepare data
-  7. Run training - Tokenize data - BNN Birdirectional Neural Network
+  4. Copy train.from and train.to to data folder
+  5. Cd to setup frolder and run python prepare_data.py
+  7. Cd to root folder and run python train.py This will tokenize the data using a BNN Birdirectional Neural Network
   
-## View Data in Tensorboard nmt-chatbotmaster\model>tensorboard --logdir=train_log/
-  1. Blue Score & Epochs
-  2. Word vector projector
+## View Data in Tensorboard 
+  1. Access by running in command prompt nmt-chatbotmaster\model>tensorboard --logdir=train_log/
+  1. Check for Blue Score & Epochs
+  2. View Word vector projector
   
 ## Deploy 
   1. View training data in output.dev
