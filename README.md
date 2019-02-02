@@ -13,17 +13,17 @@
   1. create_training_data.py. Two data files train.from and train.to (Parent comment and child reply)
 
 ## Run Model - Tensorflow NMT - Neural Machine Translation 
-https://github.com/tensorflow/nmt
+
   1. Prepare GPU VM or Desktop 
      - Install Python 3.6, Tensorflow GPU 1.4, Cuda 8.0 Toolkit, cuDNN
      - Cuda and cuDNN enable GPU processing
      - Paperspace provides ML-in-a-Box for $10 (Versions have been updated)
   2. Clone NMT github project https://github.com/daniel-kukiela/nmt-chatbot
-  3. Install requirements pip install -r requirements
+  3. Install requirements pip install -r requirements (tqdm, colorama, regex)
   4. Copy train.from and train.to to data folder
   5. Cd to setup folder and run python prepare_data.py
   7. Cd to root folder and run python train.py 
-     This will tokenize the data using a BNN Bidirectional Neural Network
+     This will tokenize the data using a BNN Bidirectional Neural Network - https://github.com/tensorflow/nmt
  <p align="center"><img src="https://user-images.githubusercontent.com/25274772/52161583-0698fb00-267c-11e9-912f-df4b134307c0.png" width="550" height="300">
   
 ## View Data in Tensorboard 
