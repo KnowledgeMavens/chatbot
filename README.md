@@ -24,6 +24,7 @@ https://github.com/tensorflow/nmt
   5. Cd to setup folder and run python prepare_data.py
   7. Cd to root folder and run python train.py 
      This will tokenize the data using a BNN Bidirectional Neural Network
+ <img src="" width="550" height="300">
   
 ## View Data in Tensorboard 
   1. Access by running in command prompt nmt-chatbotmaster\model>tensorboard --logdir=train_log/
