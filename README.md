@@ -34,7 +34,7 @@ https://github.com/tensorflow/nmt
   1. View training data in output.dev
   2. Run python inference
   3. Run modded inference
-  4. Chat with your bot
+  4. Chat with your bot - Ctrl+Win+Enter = Narrator
   
 ## Additional chatbot project
 https://github.com/llSourcell/tensorflow_chatbot
