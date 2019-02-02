@@ -1,30 +1,27 @@
 # Build Your Own Chatbot
    - Can be used to for Twitter - Charles the AI - https://twitter.com/Charles_the_AI?lang=en
 
-## Chatbot projects
-https://github.com/llSourcell/tensorflow_chatbot
-
-https://github.com/daniel-kukiela/nmt-chatbot
-
 ## Build custom chatbot
   1. Download Dataset https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment/?st=j9udbxta&sh=69e4fee7
   2. Python code to build a chatbot database, tables, & columns (parent id, comments, parent data, body, subreddit, score)
-  3. Clean data - Format/remove quotes, spaces, unessecary characters
+  3. Clean data - Format/remove quotes, spaces, unnecessary characters
   4. Find out if comments are acceptable (grab data with upvoted comments)
   5. Insert data - Browse/View results
   
 ## Create training data
   1. Create two data files train.from and train.to (Parent comment and child reply)
 
-## Run Model - Tensorflow NMT - Nueral Machine Translation https://github.com/tensorflow/nmt
+## Run Model - Tensorflow NMT - Neural Machine Translation 
+https://github.com/tensorflow/nmt
   1. Prepare GPU VM or Desktop 
      - Install Python 3.6, Tensorflow GPU 1.4, Cuda 8.0 Toolkit, cuDNN
-     - Paperspace provides provised ML-in-a-Box for $10 (Versions have been updated)
-  2. Clone NMT github project
-  3. Install requirements
+     - Paperspace provides ML-in-a-Box for $10 (Versions have been updated)
+  2. Clone NMT github project https://github.com/daniel-kukiela/nmt-chatbot
+  3. Install requirements pip install -r requirements
   4. Copy train.from and train.to to data folder
-  5. Cd to setup frolder and run python prepare_data.py
-  7. Cd to root folder and run python train.py This will tokenize the data using a BNN Birdirectional Neural Network
+  5. Cd to setup folder and run python prepare_data.py
+  7. Cd to root folder and run python train.py 
+     This will tokenize the data using a BNN Bidirectional Neural Network
   
 ## View Data in Tensorboard 
   1. Access by running in command prompt nmt-chatbotmaster\model>tensorboard --logdir=train_log/
@@ -36,6 +33,9 @@ https://github.com/daniel-kukiela/nmt-chatbot
   2. Run python inference
   3. Run modded inference
   4. Chat with your bot
+  
+## Additional chatbot project
+https://github.com/llSourcell/tensorflow_chatbot
   
   
   
