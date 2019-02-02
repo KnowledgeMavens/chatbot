@@ -1,7 +1,9 @@
 # Build Your Own Chatbot
    - Can be used to for Twitter - Charles the AI - https://twitter.com/Charles_the_AI?lang=en
 
-## Demo of prebuilt chatbot
+## Chatbot projects
+https://github.com/llSourcell/tensorflow_chatbot
+https://github.com/daniel-kukiela/nmt-chatbot
 
 ## Build custom chatbot
   1. Download Dataset https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment/?st=j9udbxta&sh=69e4fee7
@@ -13,7 +15,7 @@
 ## Create training data
   1. Create two data files train.from and train.to (Parent comment and child reply)
 
-## Run Model - Tensorflow NMT - Nueral Machine Translation
+## Run Model - Tensorflow NMT - Nueral Machine Translation https://github.com/tensorflow/nmt
   1. Prepare GPU VM or Desktop 
      - Install Python 3.6, Tensorflow GPU 1.4, Cuda 8.0 Toolkit, cuDNN
      - Paperspace provides provised ML-in-a-Box for $10 (Versions have been updated)
@@ -23,9 +25,9 @@
   5. Run prepare data
   7. Run training - Tokenize data - BNN Birdirectional Neural Network
   
-## View Data in Tensorboard
-  1. Show Blue Score & Epochs
-  2. Show word vector projector
+## View Data in Tensorboard nmt-chatbotmaster\model>tensorboard --logdir=train_log/
+  1. Blue Score & Epochs
+  2. Word vector projector
   
 ## Deploy 
   1. View training data in output.dev
